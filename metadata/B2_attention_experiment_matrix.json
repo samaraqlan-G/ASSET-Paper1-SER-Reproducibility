@@ -1,0 +1,13 @@
+{
+  "B2_CNNLSTM_BOTTLENECK_CONFIRM": {
+    "model": "cnn_lstm_bottleneck",
+    "arf_mode": "pcen",
+    "wave_aug": true,
+    "spec_aug": true,
+    "label_smoothing": 0.0,
+    "learning_rate": 0.00075,
+    "role": "bottleneck confirmation with frozen LR",
+    "bottleneck": true,
+    "attention": false
+  }
+}

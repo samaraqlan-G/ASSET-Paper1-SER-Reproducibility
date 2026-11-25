@@ -1,0 +1,11 @@
+{
+  "pipeline_version": "3.3.0",
+  "source": "/content/drive/MyDrive/project_thesis_final/SER_EXPERIMENTS_V2/splits/eseravd_group_disjoint_split_v1.csv",
+  "sha256": "954291995f1c73e8a86f91007d207facbf59b2095c51cae26a7102db2561d536",
+  "train_files": 2095,
+  "validation_files": 424,
+  "test_files": 481,
+  "group_column": "source_group_code",
+  "group_disjoint_verified": true,
+  "captured_at_utc": "2026-11-02T02:18:27.320778+00:00"
+}

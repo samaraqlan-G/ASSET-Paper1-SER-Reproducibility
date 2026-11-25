@@ -1,0 +1,5 @@
+evaluation_set,contrast,metric,n_clusters,E3_mean,comparator_mean,delta,delta_sd_across_seeds,inference
+maleo,E3-NoAttention,uar,,0.3111111111111111,0.2827777777777778,0.02833333333333332,0.015275252316519456,DESCRIPTIVE ONLY — no defensible cluster identifier
+maleo,E3-NoAttention,macro_f1,,0.27491145487201185,0.24887382953265372,0.026037625339358134,0.005217151060386017,DESCRIPTIVE ONLY — no defensible cluster identifier
+maleo,E3-HuBERT,uar,,0.3111111111111111,0.29388888888888887,0.01722222222222221,0.024570382652773302,DESCRIPTIVE ONLY — no defensible cluster identifier
+maleo,E3-HuBERT,macro_f1,,0.27491145487201185,0.28686052580381255,-0.011949070931800717,0.02127601721903593,DESCRIPTIVE ONLY — no defensible cluster identifier

@@ -1,0 +1,21 @@
+{
+  "analysis": "ASSET final cluster-aware closure",
+  "no_training": true,
+  "seeds": [
+    42,
+    52,
+    62
+  ],
+  "bootstrap_reps": 10000,
+  "cluster_evaluation_sets": [
+    "eseravd_internal_test",
+    "ravdess",
+    "cremad",
+    "emodb"
+  ],
+  "maleo_cluster_inference": false,
+  "delta_definition": "E3 minus comparator",
+  "holm_family": "four cluster-identifiable evaluation sets, separately per contrast and metric",
+  "fixed_six_class_metrics": true,
+  "optimization": "cluster-level confusion-matrix resampling; equivalent to resampling all utterances in selected clusters"
+}
