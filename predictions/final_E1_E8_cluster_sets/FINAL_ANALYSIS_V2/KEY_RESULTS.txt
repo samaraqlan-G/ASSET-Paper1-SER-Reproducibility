@@ -1,0 +1,45 @@
+ KEY RESULTS — AUTO-GENERATED FROM FROZEN PREDICTIONS
+========================================================================
+
+E3 internal accuracy = 0.542620 ± 0.013633
+E3 internal UAR = 0.507897 ± 0.026154
+E3 internal Macro-F1 = 0.499109 ± 0.028608
+E3 internal Macro-Precision = 0.523159 ± 0.018406
+
+E3 MALEO: Accuracy=0.311111, UAR=0.311111, Macro-F1=0.274911, Macro-Precision=0.274437
+E3 RAVDESS: Accuracy=0.215798, UAR=0.202672, Macro-F1=0.160052, Macro-Precision=0.173996
+E3 CREMA-D: Accuracy=0.202259, UAR=0.199191, Macro-F1=0.135704, Macro-Precision=0.226715
+E3 EMO-DB: Accuracy=0.296623, UAR=0.269999, Macro-F1=0.226455, Macro-Precision=0.229507
+
+E3 mean external UAR = 0.245743
+E3 mean external Macro-F1 = 0.199281
+E3 mean external Accuracy = 0.256448
+E3 mean external Macro-Precision = 0.226164
+
+Generalization gaps (internal UAR - target UAR):
+  MALEO: 0.196786 ± 0.040822
+  RAVDESS: 0.305225 ± 0.024943
+  CREMA-D: 0.308706 ± 0.037030
+  EMO-DB: 0.237898 ± 0.049363
+
+Same-language vs cross-language is DESCRIPTIVE ONLY because corpus, speaker, recording and annotation differences are confounded.
+Mean same-language MALEO UAR = 0.311111
+Mean cross-language UAR = 0.223954
+Descriptive difference = 0.087157
+
+Pairwise inferential interpretation:
+  E-SERAVD internal E3-E2: ΔUAR=+0.340332, 95% CI [+0.302980, +0.377382], Holm p=0.00139972
+  E-SERAVD internal E3-E6: ΔUAR=-0.045781, 95% CI [-0.072773, -0.019546], Holm p=0.00839832
+  MALEO E3-E1: ΔUAR=+0.037222, 95% CI [+0.012778, +0.061111], Holm p=0.0239952
+  MALEO E3-E2: ΔUAR=+0.143889, 95% CI [+0.116111, +0.171667], Holm p=0.00139972
+  RAVDESS E3-E2: ΔUAR=+0.036295, 95% CI [+0.018628, +0.053962], Holm p=0.0279944
+  RAVDESS E3-E4: ΔUAR=-0.015651, 95% CI [-0.024037, -0.007263], Holm p=0.00139972
+  RAVDESS E3-E6: ΔUAR=+0.017358, 95% CI [+0.006054, +0.028944], Holm p=0.0259948
+  RAVDESS E3-E8: ΔUAR=+0.027557, 95% CI [+0.012786, +0.043209], Holm p=0.00839832
+  CREMA-D E3-E1: ΔUAR=+0.033722, 95% CI [+0.027455, +0.039980], Holm p=0.00139972
+  CREMA-D E3-E2: ΔUAR=+0.032860, 95% CI [+0.028214, +0.037704], Holm p=0.00139972
+  CREMA-D E3-E5: ΔUAR=+0.010054, 95% CI [+0.005872, +0.014222], Holm p=0.00139972
+  CREMA-D E3-E6: ΔUAR=+0.031050, 95% CI [+0.026127, +0.035885], Holm p=0.00139972
+  CREMA-D E3-E8: ΔUAR=+0.027557, 95% CI [+0.021689, +0.033135], Holm p=0.00139972
+  EMO-DB E3-E2: ΔUAR=+0.117358, 95% CI [+0.090634, +0.144378], Holm p=0.00139972
+  EMO-DB E3-E6: ΔUAR=+0.029115, 95% CI [+0.014081, +0.044691], Holm p=0.0119976

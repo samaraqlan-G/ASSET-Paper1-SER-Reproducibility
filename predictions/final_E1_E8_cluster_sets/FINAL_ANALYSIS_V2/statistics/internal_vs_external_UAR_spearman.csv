@@ -1,0 +1,2 @@
+n_experiments,spearman_rho_internal_vs_external_uar,p_value,note
+8,0.11904761904761905,0.7788857260523797,Descriptive across only 8 controlled configurations; do not interpret as population-level causal evidence.

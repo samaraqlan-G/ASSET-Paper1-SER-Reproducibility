@@ -1,0 +1,28 @@
+{
+  "analysis_engine_version": "2.0.0",
+  "experiment_root": "/content/drive/MyDrive/project_thesis_final/SER_EXPERIMENTS_V3",
+  "output_root": "/content/drive/MyDrive/project_thesis_final/SER_EXPERIMENTS_V3/JOIV_FINAL_ANALYSIS_V2",
+  "seeds": [
+    42,
+    52,
+    62
+  ],
+  "bootstrap_reps": 5000,
+  "permutation_reps": 5000,
+  "random_seed": 20261006,
+  "figure_dpi": 600,
+  "prediction_files_verified": 120,
+  "expected_prediction_files": 120,
+  "training_performed": false,
+  "fine_tuning_performed": false,
+  "model_selection_performed": false,
+  "primary_metric": "UAR / six-class macro recall",
+  "emotions": [
+    "Angry",
+    "Sad",
+    "Neutral",
+    "Happy",
+    "Disgust",
+    "Fear"
+  ]
+}
