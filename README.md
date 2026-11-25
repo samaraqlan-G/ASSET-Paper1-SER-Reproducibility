@@ -11,4 +11,13 @@ Scientific guardrails:
 - MALEO pairwise inference is descriptive because no defensible repeated speaker/group identifier exists in the frozen metadata.
 - Significance uses cluster-level paired permutation with Holm correction; bootstrap intervals support effect-size uncertainty.
 
-Before public release, confirm that no redistributed audio is included contrary to original corpus licenses. This archive contains metadata/predictions/scripts, not raw corpus audio.
+# Repository Root Structure
+ASSET-Paper1-SER-Reproducibility/
+├── README.md
+├── SHA256_MANIFEST.csv
+├── metadata/
+├── notebooks/
+├── predictions/
+├── results/
+├── scripts/
+└── splits/
